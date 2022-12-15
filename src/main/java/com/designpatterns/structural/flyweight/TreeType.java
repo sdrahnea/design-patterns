@@ -2,6 +2,9 @@ package com.designpatterns.structural.flyweight;
 
 import java.awt.*;
 
+/**
+ * Contains state shared by several trees
+ */
 public class TreeType {
     private String name;
     private Color color;

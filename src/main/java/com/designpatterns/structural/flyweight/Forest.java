@@ -5,6 +5,9 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Forest, which we draw
+ */
 public class Forest extends JFrame {
     private List<Tree> trees = new ArrayList<>();
 

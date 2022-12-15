@@ -2,6 +2,9 @@ package com.designpatterns.structural.flyweight;
 
 import java.awt.*;
 
+/**
+ * Contains state unique for each tree
+ */
 public class Tree {
     private int x;
     private int y;

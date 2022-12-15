@@ -5,6 +5,9 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Encapsulates complexity of flyweight creation
+ */
 public class TreeFactory {
     static Map<String, TreeType> treeTypes = new HashMap<>();
 
