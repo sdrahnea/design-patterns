@@ -2,6 +2,9 @@ package com.designpatterns.creational.prototype.bundled;
 
 import com.designpatterns.creational.prototype.Shape;
 
+/**
+ * Prototype factory
+ */
 public class BundledShapeCacheDemo {
     public static void main(String[] args) {
         BundledShapeCache cache = new BundledShapeCache();
