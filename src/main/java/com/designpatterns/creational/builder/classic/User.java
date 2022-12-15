@@ -1,4 +1,4 @@
-package com.designpatterns.creational.builder.clasic;
+package com.designpatterns.creational.builder.classic;
 
 public class User
 {
