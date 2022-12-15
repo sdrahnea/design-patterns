@@ -3,8 +3,8 @@ package com.designpatterns.structural.flyweight;
 import java.awt.*;
 
 public class Demo {
-    static int CANVAS_SIZE = 1000;
-    static int TREES_TO_DRAW = 100;
+    static int CANVAS_SIZE = 700;
+    static int TREES_TO_DRAW = 500;
     static int TREE_TYPES = 2;
 
     public static void main(String[] args) {
