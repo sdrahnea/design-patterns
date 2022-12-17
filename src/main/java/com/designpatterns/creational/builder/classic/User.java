@@ -58,12 +58,13 @@ public class User
         }
 
         public UserBuilder phone(String phone) {
-            this.phone = phone;
-            return this;
+            UserBuilder.this.phone = phone;
+            return UserBuilder.this;
         }
+
         public UserBuilder address(String address) {
             this.address = address;
-            return this;
+            return this; // user builder
         }
         //Return the finally consrcuted User object
         public User build() {
@@ -71,9 +72,14 @@ public class User
             validateUserObject(user);
             return user;
         }
+
         private void validateUserObject(User user) {
             //Do some basic validations to check
             //if user object does not break any assumption of system
         }
+
+
+
+
     }
 }

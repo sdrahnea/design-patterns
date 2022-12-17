@@ -6,12 +6,6 @@ public class Singleton {
     public String value;
 
     private Singleton(String value) {
-        // The following code emulates slow initialization.
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
         this.value = value;
     }
 

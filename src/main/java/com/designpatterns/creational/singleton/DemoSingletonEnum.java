@@ -8,6 +8,10 @@ public class DemoSingletonEnum {
         System.out.println(singleton.getValue());
         singleton.setValue("SingletonEnum");
         System.out.println(singleton.getValue());
+        System.out.println(singleton.getValue());
+        System.out.println(singleton.getValue());
+        System.out.println(singleton.getValue());
+        System.out.println(singleton.getValue());
     }
 
 }

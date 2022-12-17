@@ -12,7 +12,8 @@ public class DemoUser {
 
         System.out.println(user1);
 
-        User user2 = new User.UserBuilder("Jack", "Reacher")
+        User user2 = new User.
+                UserBuilder("Jack", "Reacher")
                 .age(40)
                 .phone("5655")
                 //no address

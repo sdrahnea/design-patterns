@@ -8,14 +8,16 @@ public class DemoMultiThreadDoubleChecked {
                 "RESULT:" + "\n");
         Thread threadFoo = new Thread(new ThreadFoo());
         Thread threadBar = new Thread(new ThreadBar());
+        Thread threadBar3 = new Thread(new ThreadBar3());
         threadFoo.start();
         threadBar.start();
+        threadBar3.start();
     }
 
     static class ThreadFoo implements Runnable {
         @Override
         public void run() {
-            DoubleCheckedSingleton singleton = DoubleCheckedSingleton.getInstance("FOO");
+            DoubleCheckedSingleton singleton = DoubleCheckedSingleton.getInstance("thread-1");
             System.out.println(singleton.value);
         }
     }
@@ -23,9 +25,18 @@ public class DemoMultiThreadDoubleChecked {
     static class ThreadBar implements Runnable {
         @Override
         public void run() {
-            DoubleCheckedSingleton singleton = DoubleCheckedSingleton.getInstance("BAR");
+            DoubleCheckedSingleton singleton = DoubleCheckedSingleton.getInstance("thread-2");
             System.out.println(singleton.value);
         }
     }
+
+    static class ThreadBar3 implements Runnable {
+        @Override
+        public void run() {
+            DoubleCheckedSingleton singleton = DoubleCheckedSingleton.getInstance("thread-3");
+            System.out.println(singleton.value);
+        }
+    }
+
 
 }
