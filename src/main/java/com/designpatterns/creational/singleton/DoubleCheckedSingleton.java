@@ -1,8 +1,7 @@
 package com.designpatterns.creational.singleton;
 
 public class DoubleCheckedSingleton {
-    // The field must be declared volatile so that double check lock would work
-    // correctly.
+    // The field must be declared volatile so that double check lock would work correctly.
     private static volatile DoubleCheckedSingleton instance;
 
     public String value;

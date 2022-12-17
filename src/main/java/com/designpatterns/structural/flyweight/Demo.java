@@ -2,6 +2,10 @@ package com.designpatterns.structural.flyweight;
 
 import java.awt.*;
 
+/**
+ * also known as Cache
+ */
+
 public class Demo {
     static int CANVAS_SIZE = 700;
     static int TREES_TO_DRAW = 500;
