@@ -56,6 +56,13 @@ The following design patterns:
 ### 3.8 Template method
 ### 3.9 Visitor
 
+## 4. SOLID principles:
+### 4.1 Single Responsibility Principle (SRP)
+### 4.2 Open Closed Principle (OCP)
+### 4.3 Liskov Substitution Principle (LSP)
+### 4.4 Interface Segregation Principle (ISR)
+### 4.5 Dependency Inversion Principle (DIP)
+
 ## Another links
 - https://github.com/iluwatar/java-design-patterns
 - https://refactoring.guru/design-patterns/java
