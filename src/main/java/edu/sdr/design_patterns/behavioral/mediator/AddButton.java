@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.mediator;
+package edu.sdr.design_patterns.behavioral.mediator;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
