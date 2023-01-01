@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder.animal;
+package edu.sdr.design_patterns.creational.builder.animal;
 
 public class Animal {
 
