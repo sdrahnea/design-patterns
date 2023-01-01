@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.abstractfactory;
+package edu.sdr.design_patterns.creational.abstractfactory;
 
 /**
  * Factory users don't care which concrete factory they use since they work with
