@@ -1,6 +1,6 @@
-package edu.sdr.designpatterns.creational.prototype.bundled;
+package edu.sdr.design_patterns.creational.prototype.bundled;
 
-import edu.sdr.designpatterns.creational.prototype.Shape;
+import edu.sdr.design_patterns.creational.prototype.Shape;
 
 /**
  * Prototype factory
