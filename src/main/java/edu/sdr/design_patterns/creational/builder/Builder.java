@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder;
+package edu.sdr.design_patterns.creational.builder;
 
 /**
  * Builder interface defines all possible ways to configure a product.

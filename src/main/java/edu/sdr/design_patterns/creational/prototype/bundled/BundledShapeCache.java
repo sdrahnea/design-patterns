@@ -1,8 +1,8 @@
-package edu.sdr.designpatterns.creational.prototype.bundled;
+package edu.sdr.design_patterns.creational.prototype.bundled;
 
-import edu.sdr.designpatterns.creational.prototype.Circle;
-import edu.sdr.designpatterns.creational.prototype.Rectangle;
-import edu.sdr.designpatterns.creational.prototype.Shape;
+import edu.sdr.design_patterns.creational.prototype.Circle;
+import edu.sdr.design_patterns.creational.prototype.Rectangle;
+import edu.sdr.design_patterns.creational.prototype.Shape;
 
 import java.util.HashMap;
 import java.util.Map;
