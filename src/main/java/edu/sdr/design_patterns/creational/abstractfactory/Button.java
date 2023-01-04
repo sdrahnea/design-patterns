@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.abstractfactory;
+package edu.sdr.design_patterns.creational.abstractfactory;
 
 /**
  * Abstract Factory assumes that you have several families of products,
