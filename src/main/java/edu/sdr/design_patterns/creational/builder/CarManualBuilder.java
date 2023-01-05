@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder;
+package edu.sdr.design_patterns.creational.builder;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,
