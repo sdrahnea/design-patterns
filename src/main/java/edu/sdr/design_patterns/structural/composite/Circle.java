@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.composite;
+package edu.sdr.design_patterns.structural.composite;
 
 import java.awt.*;
 
