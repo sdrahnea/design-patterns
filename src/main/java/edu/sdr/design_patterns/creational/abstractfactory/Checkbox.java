@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.abstractfactory;
+package edu.sdr.design_patterns.creational.abstractfactory;
 
 /**
  * Checkboxes is the second product family. It has the same variants as buttons.
