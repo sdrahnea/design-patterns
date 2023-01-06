@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.composite;
+package edu.sdr.design_patterns.structural.composite;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -6,26 +6,26 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CompoundShape extends BaseShape {
-    protected List<edu.sdr.designpatterns.structural.composite.Shape> children = new ArrayList<>();
+    protected List<edu.sdr.design_patterns.structural.composite.Shape> children = new ArrayList<>();
 
-    public CompoundShape(edu.sdr.designpatterns.structural.composite.Shape... components) {
+    public CompoundShape(edu.sdr.design_patterns.structural.composite.Shape... components) {
         super(0, 0, Color.BLACK);
         add(components);
     }
 
-    public void add(edu.sdr.designpatterns.structural.composite.Shape component) {
+    public void add(edu.sdr.design_patterns.structural.composite.Shape component) {
         children.add(component);
     }
 
-    public void add(edu.sdr.designpatterns.structural.composite.Shape... components) {
+    public void add(edu.sdr.design_patterns.structural.composite.Shape... components) {
         children.addAll(Arrays.asList(components));
     }
 
-    public void remove(edu.sdr.designpatterns.structural.composite.Shape child) {
+    public void remove(edu.sdr.design_patterns.structural.composite.Shape child) {
         children.remove(child);
     }
 
-    public void remove(edu.sdr.designpatterns.structural.composite.Shape... components) {
+    public void remove(edu.sdr.design_patterns.structural.composite.Shape... components) {
         children.removeAll(Arrays.asList(components));
     }
 
@@ -39,7 +39,7 @@ public class CompoundShape extends BaseShape {
             return 0;
         }
         int x = children.get(0).getX();
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             if (child.getX() < x) {
                 x = child.getX();
             }
@@ -53,7 +53,7 @@ public class CompoundShape extends BaseShape {
             return 0;
         }
         int y = children.get(0).getY();
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             if (child.getY() < y) {
                 y = child.getY();
             }
@@ -65,7 +65,7 @@ public class CompoundShape extends BaseShape {
     public int getWidth() {
         int maxWidth = 0;
         int x = getX();
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             int childsRelativeX = child.getX() - x;
             int childWidth = childsRelativeX + child.getWidth();
             if (childWidth > maxWidth) {
@@ -79,7 +79,7 @@ public class CompoundShape extends BaseShape {
     public int getHeight() {
         int maxHeight = 0;
         int y = getY();
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             int childsRelativeY = child.getY() - y;
             int childHeight = childsRelativeY + child.getHeight();
             if (childHeight > maxHeight) {
@@ -91,14 +91,14 @@ public class CompoundShape extends BaseShape {
 
     @Override
     public void move(int x, int y) {
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             child.move(x, y);
         }
     }
 
     @Override
     public boolean isInsideBounds(int x, int y) {
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             if (child.isInsideBounds(x, y)) {
                 return true;
             }
@@ -109,13 +109,13 @@ public class CompoundShape extends BaseShape {
     @Override
     public void unSelect() {
         super.unSelect();
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             child.unSelect();
         }
     }
 
     public boolean selectChildAt(int x, int y) {
-        for (edu.sdr.designpatterns.structural.composite.Shape child : children) {
+        for (edu.sdr.design_patterns.structural.composite.Shape child : children) {
             if (child.isInsideBounds(x, y)) {
                 child.select();
                 return true;
