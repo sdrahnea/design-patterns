@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.decorator;
+package edu.sdr.design_patterns.structural.decorator;
 
 public interface DataSource {
     void writeData(String data);
