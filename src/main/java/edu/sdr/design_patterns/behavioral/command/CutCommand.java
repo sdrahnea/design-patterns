@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.command;
+package edu.sdr.design_patterns.behavioral.command;
 
 public class CutCommand extends Command {
 
