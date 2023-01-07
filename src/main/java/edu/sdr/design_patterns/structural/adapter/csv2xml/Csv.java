@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.adapter.csv2xml;
+package edu.sdr.design_patterns.structural.adapter.csv2xml;
 
 import java.util.List;
 
