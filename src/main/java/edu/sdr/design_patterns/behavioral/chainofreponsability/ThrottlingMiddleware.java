@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.chainofreponsability;
+package edu.sdr.design_patterns.behavioral.chainofreponsability;
 
 
 /**
