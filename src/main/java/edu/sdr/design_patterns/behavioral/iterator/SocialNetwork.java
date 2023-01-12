@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.iterator;
+package edu.sdr.design_patterns.behavioral.iterator;
 
 public interface SocialNetwork {
     ProfileIterator createFriendsIterator(String profileEmail);
