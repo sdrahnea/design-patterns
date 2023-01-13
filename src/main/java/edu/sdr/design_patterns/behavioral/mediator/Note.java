@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.mediator;
+package edu.sdr.design_patterns.behavioral.mediator;
 
 public class Note {
     private String name;

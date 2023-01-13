@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.mediator;
+package edu.sdr.design_patterns.behavioral.mediator;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
@@ -15,7 +15,7 @@ public class Editor implements Mediator {
     private AddButton add;
     private DeleteButton del;
     private SaveButton save;
-    private edu.sdr.designpatterns.behavioral.mediator.List list;
+    private edu.sdr.design_patterns.behavioral.mediator.List list;
     private Filter filter;
 
     private JLabel titleLabel = new JLabel("Title:");
