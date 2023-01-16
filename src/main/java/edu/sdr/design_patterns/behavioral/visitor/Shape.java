@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.visitor;
+package edu.sdr.design_patterns.behavioral.visitor;
 
 public interface Shape {
     void move(int x, int y);
