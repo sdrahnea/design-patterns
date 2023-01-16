@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.memento;
+package edu.sdr.design_patterns.behavioral.memento;
 
 import java.awt.*;
 import java.io.Serializable;
