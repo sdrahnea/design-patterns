@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.observer;
+package edu.sdr.design_patterns.behavioral.observer;
 
 import java.io.File;
 
