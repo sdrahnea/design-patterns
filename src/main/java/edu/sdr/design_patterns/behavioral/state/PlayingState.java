@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.state;
+package edu.sdr.design_patterns.behavioral.state;
 
 
 public class PlayingState extends State {

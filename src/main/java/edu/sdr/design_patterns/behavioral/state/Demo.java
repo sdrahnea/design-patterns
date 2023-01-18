@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.state;
+package edu.sdr.design_patterns.behavioral.state;
 
 /**
  * Demo class. Everything comes together here.
