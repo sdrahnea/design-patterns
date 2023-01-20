@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.templatemethod;
+package edu.sdr.design_patterns.behavioral.templatemethod;
 
 /**
  * Class of social network
