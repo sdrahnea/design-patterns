@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.strategy;
+package edu.sdr.design_patterns.behavioral.strategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
