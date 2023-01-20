@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.behavioral.visitor;
+package edu.sdr.design_patterns.behavioral.visitor;
 
 
 public class XMLExportVisitor implements Visitor {
