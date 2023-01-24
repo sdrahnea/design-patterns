@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.abstractfactory;
+package edu.sdr.design_patterns.creational.abstractfactory;
 
 /**
  * All products families have the same varieties (MacOS/Windows).

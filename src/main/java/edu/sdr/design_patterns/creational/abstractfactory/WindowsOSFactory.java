@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.abstractfactory;
+package edu.sdr.design_patterns.creational.abstractfactory;
 
 /**
  * Each concrete factory extends basic factory and responsible for creating
