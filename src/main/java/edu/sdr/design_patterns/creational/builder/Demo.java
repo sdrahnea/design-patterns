@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder;
+package edu.sdr.design_patterns.creational.builder;
 
 /**
  * Demo class. Everything comes together here.

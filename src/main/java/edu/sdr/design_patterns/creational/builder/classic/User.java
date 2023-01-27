@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder.classic;
+package edu.sdr.design_patterns.creational.builder.classic;
 
 public class User
 {

@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder;
+package edu.sdr.design_patterns.creational.builder;
 
 /**
  * Just another feature of a car.

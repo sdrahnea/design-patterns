@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder;
+package edu.sdr.design_patterns.creational.builder;
 
 /**
  * Director defines the order of building steps. It works with a builder object

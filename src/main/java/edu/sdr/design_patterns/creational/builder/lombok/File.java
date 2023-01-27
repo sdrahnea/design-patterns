@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.builder.lombok;
+package edu.sdr.design_patterns.creational.builder.lombok;
 
 import lombok.Builder;
 
