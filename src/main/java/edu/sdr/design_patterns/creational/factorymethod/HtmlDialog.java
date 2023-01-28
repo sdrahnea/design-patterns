@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.factorymethod;
+package edu.sdr.design_patterns.creational.factorymethod;
 
 /**
  * HTML Dialog will produce HTML buttons.

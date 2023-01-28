@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.factorymethod;
+package edu.sdr.design_patterns.creational.factorymethod;
 
 /**
  * Base factory class. Note that "factory" is merely a role for the class. It
