@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.prototype;
+package edu.sdr.design_patterns.creational.prototype;
 
 public class Rectangle extends Shape {
     public int width;
