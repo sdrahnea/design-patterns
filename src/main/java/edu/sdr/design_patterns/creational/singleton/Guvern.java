@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.creational.singleton;
+package edu.sdr.design_patterns.creational.singleton;
 
 public class Guvern {
 
