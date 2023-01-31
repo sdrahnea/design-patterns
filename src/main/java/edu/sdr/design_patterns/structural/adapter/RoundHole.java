@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.adapter;
+package edu.sdr.design_patterns.structural.adapter;
 
 /**
  * RoundHoles are compatible with RoundPegs.

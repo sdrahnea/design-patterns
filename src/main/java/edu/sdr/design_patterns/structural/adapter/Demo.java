@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.adapter;
+package edu.sdr.design_patterns.structural.adapter;
 
 /**
  * Somewhere in client code...
