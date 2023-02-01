@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.bridge;
+package edu.sdr.design_patterns.structural.bridge;
 
 public interface Remote {
     void power();
