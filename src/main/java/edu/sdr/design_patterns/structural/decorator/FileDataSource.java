@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.decorator;
+package edu.sdr.design_patterns.structural.decorator;
 
 import java.io.*;
 
