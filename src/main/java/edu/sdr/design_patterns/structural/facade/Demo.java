@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.facade;
+package edu.sdr.design_patterns.structural.facade;
 
 import java.io.File;
 
