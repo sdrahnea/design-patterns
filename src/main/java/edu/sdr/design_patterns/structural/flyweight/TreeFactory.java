@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.flyweight;
+package edu.sdr.design_patterns.structural.flyweight;
 
 
 import java.awt.*;
