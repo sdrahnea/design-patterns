@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.proxy;
+package edu.sdr.design_patterns.structural.proxy;
 
 public class Video {
     public String id;

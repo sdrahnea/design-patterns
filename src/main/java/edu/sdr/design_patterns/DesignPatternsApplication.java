@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns;
+package edu.sdr.design_patterns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,4 +1,4 @@
-package edu.sdr.designpatterns.structural.proxy;
+package edu.sdr.design_patterns.structural.proxy;
 
 import java.util.HashMap;
 
